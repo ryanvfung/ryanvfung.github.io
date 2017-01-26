@@ -77,6 +77,9 @@ header .navbar {
   clear: both;
   padding: 0.5rem; }
 
+.popover, .tooltip {
+  font: 16px "Maven Pro", "Segoe UI", "Lucida Grande", "Droid Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+
 header .navbar {
   background-color: #ff7700; }
 
@@ -236,5 +239,17 @@ option:checked {
   text-align: center; }
   .c-footer p {
     margin: 0.5rem 0; }
+
+#scroll-progress-bar {
+  position: fixed;
+  z-index: 1031;
+  /* 1 more than navbar */
+  top: 0;
+  right: 100%;
+  width: 120%;
+  height: .125rem;
+  transition: right 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0 0 20px 1px #fff; }
 
 /*# sourceMappingURL=z52.css.map */
